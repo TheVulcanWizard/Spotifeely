@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
 import Header from './HeaderComponent'
+import GitHub from './GitHubComponent'
+
 
 class Main extends Component {
     render() {
         return (
             <>
                 <Header />
-                <h1>This is the main component</h1>
+                <div className="container">
+                    <h1>This is the main component</h1>
+                    <GitHub />
+                </div>
             </>
         )
     }
